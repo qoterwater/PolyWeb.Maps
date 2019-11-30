@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #33473C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 95px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    padding-left: 3%;
+}
+
+header nav ul {
+    text-decoration: underline;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    padding-right: 7%;
+}
+
+header nav ul li:first-child {
+    padding-right: 26%;
+}
+
+article {
+    padding: 0 3%;
+}
+
+article h2 {
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: 800;
+}
+
+article p {
+    font-size: 48px;
+    padding-top: 3%;
+    font-weight: 500;
+}
+
+.moscow-for-life {
+    padding-bottom: 7%;
+}
+
+.moscow-for-life h2 {
+    padding-top: 9%;
+    text-decoration: underline;
+}
+
+.information {
+    background-color: #eae9e5;
+}
+
+.information article h2 {
+    padding-top: 3%;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 14pt !important;
+    text-align: justify;
+}
+
+.maps {
+    margin-top: 20px;
+}
+
+.maps h2 {
+    font-size: 60px;
+    margin-left: 3%;
+    padding-bottom: 2%;
+    padding-top: 4%;
+}
+
+.choose-map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu1>a,
+.menu1 #tab2:target~a:nth-of-type(1),
+.menu1 #tab3:target~a:nth-of-type(1),
+.menu1>article {
+    padding: .3% 3%;
+}
+
+.menu1>article {
+    padding: 3% 3%;
+}
+
+.menu1 a {
+    margin: 3%
+}
+
+.menu1>a,
+.menu1 #tab2:target~a:nth-of-type(1),
+.menu1 #tab3:target~a:nth-of-type(1) {
+    border: 3px solid black;
+    color: #33473C;
+}
+
+.menu1>a {
+    line-height: 28px;
+    background: #eae9e5;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+#tab2,
+#tab3,
+.menu1>article,
+.menu1 #tab2:target~article:nth-of-type(1),
+.menu1 #tab3:target~article:nth-of-type(1) {
+    display: none;
+}
+
+.menu1>article:nth-of-type(1),
+.menu1 #tab2:target~article:nth-of-type(2),
+.menu1 #tab3:target~article:nth-of-type(3) {
+    display: block;
+}
+
+.menu1 #tab1:target~a:nth-of-type(1),
+.menu1 #tab2:target~a:nth-of-type(2),
+.menu1 #tab3:target~a:nth-of-type(3) {
+    color: #eae9e5;
+    background-color: #33473C;
+}
+
+.menu1 article .box {
+    width: 50px;
+    height: 50px;
+    background-color: #fc9801;
+    margin-right: 2%;
+}
+
+.menu1 article .box-orange {
+    background-color: #fc9801;
+}
+
+.menu1 article .box-yellow {
+    background-color: #ffe607;
+}
+
+.menu1 article .box-gray {
+    background-color: #c4c4c4;
+}
+
+.menu1 article .box-red {
+    background-color: rgb(236, 0, 0);
+}
+
+.menu1 article .box-blue {
+    background-color: rgb(0, 60, 255)
+}
+
+.menu1 article .box-violet {
+    background-color: rgb(140, 0, 255)
+}
+
+.menu1 article .box-green {
+    background-color: rgb(56, 255, 145)
+}
+
+.menu1 article .box-purple {
+    background-color: rgb(255, 0, 234)
+}
+
+.menu1 article p {
+    height: 50px;
+}
+
+.menu1 article ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 0;
+    margin-left: 0;
+}
